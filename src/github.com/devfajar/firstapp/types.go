@@ -55,4 +55,10 @@ func main() {
 	added := i + int(j)	// int + float64 not allowed
 	fmt.Println(added)
 
+
+	k := 50
+	var p float64 = float64(k) // this statement
+	fmt.Println("p",p)
+
+
 }
